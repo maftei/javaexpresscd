@@ -9,7 +9,7 @@ This project is java microservice project for continous deployment.
 Project is created with:
 * Java version: 8
 * Spring : 2.5.5
-Infra & Tools:
+## Infra & Tools
 * Terraform
 * AWS: EC2 medium
 * Maven
