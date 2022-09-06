@@ -12,6 +12,7 @@ Project is created with:
 ## Infra & Tools
 * Terraform
 * AWS: EC2 medium
+* Jenkins
 * Maven
 * SaonarCloud
 * Docker
