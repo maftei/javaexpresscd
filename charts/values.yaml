@@ -1,4 +1,4 @@
 deployment:
   replicaCount: 2
   image: andrei4455/springjavaexpress-docker-demo:springjavaexpress-docker-demo
-  namespace: default
+  namespace: dev
