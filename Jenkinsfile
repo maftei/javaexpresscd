@@ -3,7 +3,7 @@ pipeline {
   environment {
     app = "webapp"
     environment = "dev"
-    namespace = "dev"
+    namespace = "default"
   }
   agent any
 
