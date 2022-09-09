@@ -1,4 +1,14 @@
 deployment:
+  name: javaexpress2-deployment
   replicaCount: 2
+  app: avaexpress2
   image: andrei4455/springjavaexpress-docker-demo:springjavaexpress-docker-demo
+  imagePullPolicy: Always
   namespace: dev
+  containerPort: 8080
+service:
+  name: javaexpress2-service
+  app: javaexpress2
+  type: LoadBalancer
+  port: 8080
+  targetPort: 8080
